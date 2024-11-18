@@ -10,7 +10,7 @@ def sineWave():
 
     #plot
     plt.plot(x, y)
-    plt.title("Sine Wave")
+    plt.title("Sine Wave!")
     plt.show()
 
 if __name__ == "__main__":
