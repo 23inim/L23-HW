@@ -9,8 +9,11 @@ def sineWave():
     y = numpy.sin(x*2) #frequency doubled by multiplying x by 2
 
     #plot
+    #choose plot type and input x and y coordinates
     plt.plot(x, y)
+    #add the sine wave title to the graph
     plt.title("Sine Wave")
+    #show the plot
     plt.show()
 
 if __name__ == "__main__":
